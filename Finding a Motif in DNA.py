@@ -5,8 +5,8 @@
 # We define a motif as such a commonly shared interval of DNA. A common task
 # in molecular biology is to search an organism's genome for a known motif.
 
-with open("rosalind_subs.txt") as f:
-    dna_sequence_motif = f.read()
+with open("rosalind_subs.txt") as file:
+    dna_sequence_motif = file.read()
 
 DNA_sequence = dna_sequence_motif.split()[0]
 motif = dna_sequence_motif.split()[1]
